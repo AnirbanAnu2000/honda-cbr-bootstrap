@@ -1,0 +1,666 @@
+/* google font with font-family name */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.common-btn {
+    background-color: #E76F51;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    border: 3px solid transparent;
+    transition: all linear 0.3s;
+}
+
+.common-btn:hover {
+    border: 3px solid #E76F51;
+    background-color: transparent;
+    color: #E76F51;
+}
+
+
+/* common css end */
+
+
+/* navigation part start */
+
+#navigation {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+}
+
+#navigation .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#navigation .login-btn {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 80px;
+}
+
+
+/* navigation part end */
+
+
+/* banner part start */
+
+#banner {
+    background-color: #264653;
+    padding-top: 150px;
+    padding-bottom: 85px;
+}
+
+#banner .banner-left-content {
+    padding-top: 15%;
+    padding-right: 15%;
+}
+
+#banner .banner-left-content p.product-speciality {
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+}
+
+#banner .banner-left-content h1.product-name {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#banner .banner-left-content p.product-short-detail {
+    font-size: 16px;
+    font-weight: 300;
+    color: #E0E0E0;
+    margin-bottom: 20px;
+}
+
+#banner .purchase-modal {
+    justify-content: center;
+}
+
+#banner .banner-right-content img {
+    width: 95%;
+}
+
+
+/* banner part end */
+
+
+/* fetured bikes part start */
+
+#fetured-bikes {
+    padding-top: 75px;
+}
+
+#fetured-bikes .fetured-bikes-heading-content {
+    margin-bottom: 110px;
+}
+
+#fetured-bikes h1.fetured-bikes-heading {
+    color: #000;
+}
+
+#fetured-bikes p.fetured-bikes-heading-comment {
+    color: #E76F51;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+}
+
+#fetured-bikes p.fetured-bikes-heading-comment::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background-color: #E76F51;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#fetured-bikes .fetured-bike-gray img {
+    filter: grayscale(100%);
+}
+
+
+/* fetured bikes part end */
+
+
+/* latest news part start */
+
+#latest-news {
+    padding-top: 170px;
+    padding-bottom: 60px;
+}
+
+#latest-news .latest-news-heading-content {
+    margin-bottom: 55px;
+}
+
+#latest-news h1.latest-news-heading {
+    color: #0A0826;
+}
+
+#latest-news .latest-news-card {
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+#latest-news .latest-news-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #18191F;
+}
+
+.latest-btn {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/* latest news part end */
+
+
+/* happy client part start */
+
+#happy-client {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#happy-client .happy-client-heading {
+    color: #0A0826;
+}
+
+#happy-client .happy-client-heading span {
+    color: #E76F51;
+}
+
+#happy-client .happy-client-card {
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border: 1px solid #DEDEDE;
+}
+
+#happy-client .happy-client-card .client-says {
+    color: #6C6C6C;
+    letter-spacing: 0.2px;
+    font-size: 16px;
+}
+
+#happy-client .client-feedback {
+    color: #E77C40;
+}
+
+#happy-client .happy-client-card .client-name {
+    color: #23A6F0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#happy-client .happy-client-card .client-profession {
+    color: #252B42;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#happy-client .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* happy client part end */
+
+
+/* faq part start */
+
+#faq {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#faq .faq-heading {
+    color: #0D0925;
+    margin-bottom: 90px;
+}
+
+#faq .faq-heading span {
+    color: #E76F51;
+}
+
+#faq .faq-left-content img {
+    width: 430px;
+    height: 420px;
+}
+
+#faq .faq-right-content .faq-single-portion {
+    border: 1px solid #d5e5fb;
+}
+
+#faq .faq-right-content .faq-header {
+    color: #383838;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#faq .faq-right-content .faq-answer {
+    color: #7E848C;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.faq-button {
+    color: #383838;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #383838;
+    background-color: transparent;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0);
+}
+
+
+/* faq part end */
+
+
+/* video part start */
+
+#video {
+    background: url(../images/video-section-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#video .video-part-content iframe {
+    width: 100%;
+    height: 450px;
+    border: 10px solid #8380b4;
+    border-radius: 10px;
+}
+
+
+/* video part end */
+
+
+/* contact part start */
+
+#contact h1.contact-heading {
+    color: #0A0826;
+}
+
+#contact .contact-form {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#contact .google-map-location iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* contact part end */
+
+
+/* footer part start */
+
+#footer {
+    background-color: #0B0D17;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+#footer .footer-download-license a,
+#footer .footer-navbar a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+#footer .footer-copyright {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#footer .footer-app-heading {
+    font-size: 18px;
+    font-weight: 500;
+    color: #D9DBE1;
+}
+
+
+/* footer part end */
+
+
+/* ============================
+        Media queries start 
+===============================*/
+
+
+/* media queries for mobile device start*/
+
+@media only screen and (min-width:320px) and (max-width:575px) {
+    /* navigation part start */
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+    .navbar-toggler i {
+        color: #fff;
+    }
+    #navbarSupportedContent {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #264653;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    #navbarSupportedContent a {
+        text-align: center;
+    }
+    #navbarSupportedContent .login-btn {
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    /* banner part start */
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    #banner .banner-left-content p.product-speciality {
+        font-size: 16px;
+    }
+    #banner .banner-left-content h1.product-name {
+        font-size: 33px;
+    }
+    #banner .banner-right-content {
+        margin-top: 45px;
+    }
+    /* featured bike start */
+    #fetured-bikes h1.fetured-bikes-heading {
+        font-size: 33px;
+        padding: 0;
+    }
+    .featured-bike {
+        margin-bottom: 100px;
+    }
+    .featured-bike:last-child {
+        margin-bottom: -105px;
+    }
+    /* latest news start */
+    #latest-news .latest-news-heading-content {
+        margin-bottom: 45px;
+    }
+    #latest-news h1.latest-news-heading {
+        font-size: 33px;
+    }
+    #latest-news .latest-news-card {
+        margin-bottom: 30px;
+    }
+    /* happy client start */
+    #happy-client {
+        margin-top: -10px;
+    }
+    #happy-client .happy-client-heading {
+        font-size: 33px;
+    }
+    #happy-client .happy-client-heading span {
+        color: #E76F51;
+        display: block;
+    }
+    #happy-client .happy-client-card {
+        margin-bottom: 30px;
+    }
+    #happy-client {
+        margin-bottom: 40px;
+    }
+    /* faq part start */
+    #faq {
+        padding-top: 0px;
+    }
+    #faq .faq-heading {
+        font-size: 33px;
+        margin-bottom: 0;
+    }
+    #faq .faq-left-content img {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    #faq .faq-right-content .faq-header {
+        font-size: 16px;
+    }
+    #faq .faq-right-content .faq-answer {
+        font-size: 14px;
+    }
+    /* contact part start */
+    #contact h1.contact-heading {
+        font-size: 33px;
+    }
+    .google-map-location {
+        height: 400px;
+    }
+    /* footer part start */
+    .footer-left-content {
+        margin-bottom: 60px;
+    }
+    .footer-right-content img {
+        display: block;
+    }
+    .footer-copyright {
+        padding-top: 80px;
+        margin-bottom: -60px;
+        text-align: center;
+    }
+}
+
+
+/* media queries for mobile device end */
+
+
+/* media queries for tablet device start */
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    /* navigation part start */
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+    .navbar-toggler i {
+        color: #fff;
+    }
+    #navbarSupportedContent {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #264653;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    #navbarSupportedContent a {
+        text-align: center;
+    }
+    #navbarSupportedContent .login-btn {
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    /* banner part start */
+    #banner {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    #banner .banner-left-content p.product-speciality {
+        font-size: 16px;
+    }
+    #banner .banner-left-content h1.product-name {
+        font-size: 33px;
+    }
+    #banner .banner-right-content {
+        margin-top: 45px;
+    }
+    /* featured bike start */
+    #fetured-bikes h1.fetured-bikes-heading {
+        font-size: 33px;
+        padding: 0;
+    }
+    .featured-bike {
+        margin-bottom: 100px;
+    }
+    .featured-bike:last-child {
+        margin-bottom: -105px;
+    }
+    /* latest news start */
+    #latest-news .latest-news-heading-content {
+        margin-bottom: 45px;
+    }
+    #latest-news h1.latest-news-heading {
+        font-size: 33px;
+    }
+    #latest-news .latest-news-card {
+        margin-bottom: 30px;
+    }
+    /* happy client start */
+    #happy-client {
+        margin-top: -10px;
+    }
+    #happy-client .happy-client-heading {
+        font-size: 33px;
+    }
+    #happy-client .happy-client-heading span {
+        color: #E76F51;
+        display: block;
+    }
+    #happy-client .happy-client-card {
+        margin-bottom: 30px;
+    }
+    #happy-client {
+        margin-bottom: 40px;
+    }
+    /* faq part start */
+    #faq {
+        padding-top: 0px;
+    }
+    #faq .faq-heading {
+        font-size: 33px;
+        margin-bottom: 0;
+    }
+    #faq .faq-left-content img {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    #faq .faq-right-content .faq-header {
+        font-size: 16px;
+    }
+    #faq .faq-right-content .faq-answer {
+        font-size: 14px;
+    }
+    /* contact part start */
+    #contact h1.contact-heading {
+        font-size: 33px;
+    }
+    .google-map-location {
+        height: 400px;
+    }
+    /* footer part start */
+    .footer-left-content {
+        margin-bottom: 60px;
+    }
+    .footer-right-content img {
+        display: block;
+    }
+    .footer-copyright {
+        padding-top: 80px;
+        margin-bottom: -60px;
+        text-align: center;
+    }
+}
+
+
+/* media queries for tablet device end */
+
+
+/* media queries for medium device start */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+    .navbar-toggler i {
+        color: #fff;
+    }
+    #navbarSupportedContent {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #264653;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    #navbarSupportedContent a {
+        text-align: center;
+    }
+    #navbarSupportedContent .login-btn {
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .featured-bike {
+        margin-bottom: 100px;
+    }
+    #latest-news .latest-news-card {
+        margin-bottom: 30px;
+    }
+    #happy-client .happy-client-card {
+        margin-bottom: 30px;
+    }
+    #faq .faq-left-content img {
+        width: 90%;
+        height: 420px;
+    }
+}
+
+
+/* ============================
+        Media queries end 
+===============================*/
